@@ -1,0 +1,19 @@
+# Copyright (c) 2023 Qualcomm Technologies, Inc.
+# All Rights Reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+service vendor.camera-provider /vendor/bin/hw/vendor.qti.camera.provider-service_64
+    interface aidl android.hardware.camera.provider.ICameraProvider/vendor_qti/0
+    interface aidl vendor.arcsoft.hardware.camera.postproc.IPostProcService/default
+    interface vendor.qti.hardware.camera.postproc@1.0::IPostProcService camerapostprocservice
+    interface vendor.qti.hardware.camera.aon@1.0::IAONService aoncameraservice
+    class hal
+    user cameraserver
+    group audio camera input drmrpc oem_2907 oem_2912
+    ioprio rt 4
+    capabilities SYS_NICE
+#Moto change cameraService from HighPerformance to MaxPerformance group (for using CPU7)
+    task_profiles CameraServiceCapacity MaxPerformance ProcessCapacityMax
+
+on boot
+    chown cameraserver camera /sys/module/camera/parameters/cam_error_inject
