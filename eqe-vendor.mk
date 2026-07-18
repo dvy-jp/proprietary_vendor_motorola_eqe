@@ -3324,6 +3324,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/eqe/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/motorola/eqe/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
     vendor/motorola/eqe/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
+    vendor/motorola/eqe/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.st.eqe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.st.eqe.rc \
     vendor/motorola/eqe/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
     vendor/motorola/eqe/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/motorola/eqe/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
@@ -3573,6 +3574,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/eqe/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/motorola/eqe/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/motorola/eqe/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
+    vendor/motorola/eqe/proprietary/vendor/etc/st54l_conf_ds.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54l_conf_ds.txt \
+    vendor/motorola/eqe/proprietary/vendor/etc/st54l_conf_felica_ds.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54l_conf_felica_ds.txt \
+    vendor/motorola/eqe/proprietary/vendor/etc/st54l_conf_felica_ss.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54l_conf_felica_ss.txt \
+    vendor/motorola/eqe/proprietary/vendor/etc/st54l_conf_ss.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54l_conf_ss.txt \
     vendor/motorola/eqe/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/motorola/eqe/proprietary/vendor/etc/thermal-engine-eqe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-eqe.conf \
     vendor/motorola/eqe/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
@@ -4263,6 +4268,7 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssd \
     libstandbyfeature \
+    libstnfc-auth \
     libstreamparser \
     libsubsystem_control \
     libswregistrationalgo \
@@ -4322,6 +4328,7 @@ PRODUCT_PACKAGES += \
     motorola.hardware.camera.desktop@1.0 \
     motorola.hardware.camera.desktop@2.0 \
     motorola.hardware.sensors-V1-ndk_platform \
+    nfc_nci.st21nfc.st \
     qcrilInterfaces \
     qcrilMarshal \
     qcrilNrQmiModule \
@@ -4668,6 +4675,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.identity-service-qti \
     android.hardware.keymaster@4.0-service-qti \
+    android.hardware.nfc@1.2-service.st \
     android.hardware.security.keymint-service-qti \
     motorola.hardware.camera.desktop@2.0-service \
     qcrilNrd \

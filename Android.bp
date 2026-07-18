@@ -19947,6 +19947,38 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libstnfc-auth",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libstnfc-auth.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libhardware",
+                "libhardware_legacy",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "nfc_nci.st21nfc.st",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libstreamparser",
     owner: "motorola",
     strip: {
@@ -21729,6 +21761,37 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "nfc_nci.st21nfc.st",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/nfc_nci.st21nfc.st.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libhardware",
+                "libhardware_legacy",
+                "libhidlbase",
+                "liblog",
+                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -30064,6 +30127,41 @@ cc_prebuilt_binary {
                 "android.hardware.keymaster@4.0",
                 "libqtikeymaster4",
                 "libcrypto",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.nfc@1.2-service.st",
+    owner: "motorola",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service.st",
+            ],
+            shared_libs: [
+                "nfc_nci.st21nfc.st",
+                "libbase",
+                "libcutils",
+                "libhardware",
+                "liblog",
+                "libutils",
+                "android.hardware.nfc@1.0",
+                "android.hardware.nfc@1.1",
+                "android.hardware.nfc@1.2",
+                "libhidlbase",
                 "libc++",
                 "libc",
                 "libm",
