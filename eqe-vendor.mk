@@ -3908,6 +3908,7 @@ PRODUCT_PACKAGES += \
     libapengine \
     libappclassifier \
     libar-pal \
+    libarccamerapostproc_aidl \
     libarcsoft_chi_utils \
     libarcsoft_distortion_correction \
     libarcsoft_hp_detection \
@@ -4773,3 +4774,24 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
+
+# Moto Camera (port desde stock .64R) - agregado manualmente
+PRODUCT_PACKAGES += \
+    MotCamera4 \
+    MotCamera3AI \
+    com.motorola.motosignature \
+    moto-core_services \
+    moto-settings
+
+PRODUCT_COPY_FILES += \
+    vendor/motorola/eqe/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/eqe/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
+    vendor/motorola/eqe/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
+    vendor/motorola/eqe/proprietary/product/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xml \
+    vendor/motorola/eqe/proprietary/product/etc/permissions/com.motorola.camera3.eqe.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.eqe.xml \
+    vendor/motorola/eqe/proprietary/product/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.content.ai.xml \
+    vendor/motorola/eqe/proprietary/product/etc/permissions/com.motorola.camera3.adobe_scan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.adobe_scan.xml \
+    vendor/motorola/eqe/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
+    vendor/motorola/eqe/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
+    vendor/motorola/eqe/proprietary/product/etc/sysconfig/initial-package-stopped-states-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/initial-package-stopped-states-com.motorola.camera3.xml \
+    vendor/motorola/eqe/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
