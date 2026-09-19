@@ -1,0 +1,241 @@
+// Blobs Dolby del firmware stock A16 (.64R), declarados como prebuilt.
+//
+// Por que este archivo: el build NO acepta que se instalen librerias o
+// ejecutables (archivos ELF) con PRODUCT_COPY_FILES; hay que declararlos como
+// modulos. Se deja aca, al lado de los blobs, y no en el Android.bp generado
+// del repo vendor, porque ese se regenera con extract-files.
+//
+// Las dependencias de cada modulo salen de leer las mismas librerias (readelf),
+// asi que no estan puestas a mano ni de mas.
+
+
+
+cc_prebuilt_library_shared {
+    name: "libdmshal",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["lib64/libdmshal.so"],
+    shared_libs: [
+        "vendor.dolby.dms-V1-ndk",
+        "libbinder",
+        "libbinder_ndk",
+        "libcutils",
+        "libutils",
+        "liblog",
+        "libdapparamstorage",
+        "libhidlbase",
+        "vendor.dolby.hardware.dms@2.1",
+        "vendor.dolby.hardware.dms@2.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "64",
+    vendor: true,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdlbdsservice",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["lib64/libdlbdsservice.so"],
+    shared_libs: [
+        "libutils",
+        "libstagefright_foundation",
+        "liblog",
+        "libxml2",
+        "libcrypto",
+        "libdapparamstorage",
+        "libsqlite",
+        "libcutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "64",
+    vendor: true,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdlbpreg",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["lib64/libdlbpreg.so"],
+    shared_libs: [
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libaudioutils",
+        "libstagefright_foundation",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "64",
+    vendor: true,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.dolby.dms-V1-ndk",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["lib64/vendor.dolby.dms-V1-ndk.so"],
+    shared_libs: [
+        "libbinder_ndk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "64",
+    vendor: true,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.dolby.hardware.dms@2.0",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["lib64/vendor.dolby.hardware.dms@2.0.so"],
+    shared_libs: [
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "64",
+    vendor: true,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.dolby.hardware.dms@2.1",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["lib64/vendor.dolby.hardware.dms@2.1.so"],
+    shared_libs: [
+        "vendor.dolby.hardware.dms@2.0",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "64",
+    vendor: true,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libswdap",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["lib64/soundfx/libswdap.so"],
+    shared_libs: [
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libaudioutils",
+        "libdapparamstorage",
+        "libstagefright_foundation",
+        "libdlbpreg",
+        "libdmshal",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    vendor: true,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdlbvol",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["lib64/soundfx/libdlbvol.so"],
+    shared_libs: [
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libaudioutils",
+        "libstagefright_foundation",
+        "libdlbpreg",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    vendor: true,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "vendor.dolby.dms.service",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["bin/hw/vendor.dolby.dms.service"],
+    shared_libs: [
+        "vendor.dolby.dms-V1-ndk",
+        "liblog",
+        "libutils",
+        "libbase",
+        "libbinder",
+        "libbinder_ndk",
+        "libdapparamstorage",
+        "libdmshal",
+        "libdlbdsservice",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    vendor: true,
+    prefer: true,
+    soc_specific: true,
+}
