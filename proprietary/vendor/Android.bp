@@ -13,6 +13,8 @@
 cc_prebuilt_library_shared {
     name: "libdmshal",
     owner: "motorola",
+    // Blobs cerrados de Dolby del stock: se instalan sin revalidar su ELF.
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -42,6 +44,8 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libdlbdsservice",
     owner: "motorola",
+    // Blobs cerrados de Dolby del stock: se instalan sin revalidar su ELF.
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -69,6 +73,8 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libdlbpreg",
     owner: "motorola",
+    // Blobs cerrados de Dolby del stock: se instalan sin revalidar su ELF.
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -93,6 +99,8 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.dolby.dms-V1-ndk",
     owner: "motorola",
+    // Blobs cerrados de Dolby del stock: se instalan sin revalidar su ELF.
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -113,6 +121,8 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.dolby.hardware.dms@2.0",
     owner: "motorola",
+    // Blobs cerrados de Dolby del stock: se instalan sin revalidar su ELF.
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -136,6 +146,8 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.dolby.hardware.dms@2.1",
     owner: "motorola",
+    // Blobs cerrados de Dolby del stock: se instalan sin revalidar su ELF.
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -160,6 +172,8 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libswdap",
     owner: "motorola",
+    // Blobs cerrados de Dolby del stock: se instalan sin revalidar su ELF.
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -188,6 +202,8 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libdlbvol",
     owner: "motorola",
+    // Blobs cerrados de Dolby del stock: se instalan sin revalidar su ELF.
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -214,6 +230,8 @@ cc_prebuilt_library_shared {
 cc_prebuilt_binary {
     name: "vendor.dolby.dms.service",
     owner: "motorola",
+    // Blobs cerrados de Dolby del stock: se instalan sin revalidar su ELF.
+    check_elf_files: false,
     strip: {
         none: true,
     },

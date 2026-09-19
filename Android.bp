@@ -113,6 +113,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.mot.eeprom.mot_gt24p128f_ov50e_eeprom",
     owner: "motorola",
     strip: {
@@ -161,6 +164,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.mot.eeprom.mot_gt24p128g_s5k3k1_eeprom",
     owner: "motorola",
     strip: {
@@ -209,6 +215,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.mot.eeprom.mot_gt24p128g_s5kjns_eeprom",
     owner: "motorola",
     strip: {
@@ -256,6 +265,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.mot.eeprom.mot_gt24p64e_hi1336_eeprom",
     owner: "motorola",
     strip: {
@@ -304,6 +316,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.ois.mot_dw9784_main",
     owner: "motorola",
     strip: {
@@ -351,6 +366,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.ois.mot_dw9784_tele",
     owner: "motorola",
     strip: {
@@ -398,6 +416,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.sensor.mot_hi1336",
     owner: "motorola",
     strip: {
@@ -445,6 +466,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.sensor.mot_ov50e",
     owner: "motorola",
     strip: {
@@ -492,6 +516,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.sensor.mot_s5k3k1",
     owner: "motorola",
     strip: {
@@ -539,6 +566,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.sensor.mot_s5kjns",
     owner: "motorola",
     strip: {
@@ -744,6 +774,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.bots.node.vendortagwrite",
     owner: "motorola",
     strip: {
@@ -858,6 +891,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.mot.node.c2d",
     owner: "motorola",
     strip: {
@@ -1068,6 +1104,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.depth",
     owner: "motorola",
     strip: {
@@ -1117,6 +1156,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.depthprovider",
     owner: "motorola",
     strip: {
@@ -1169,6 +1211,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.dewarp",
     owner: "motorola",
     strip: {
@@ -1312,6 +1357,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.eisv2",
     owner: "motorola",
     strip: {
@@ -1364,6 +1412,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.eisv3",
     owner: "motorola",
     strip: {
@@ -1479,6 +1530,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.gme",
     owner: "motorola",
     strip: {
@@ -1564,6 +1618,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.gyrornn",
     owner: "motorola",
     strip: {
@@ -1616,6 +1673,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.hdr10pgen",
     owner: "motorola",
     strip: {
@@ -1669,6 +1729,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.hdr10phist",
     owner: "motorola",
     strip: {
@@ -1751,6 +1814,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.ml",
     owner: "motorola",
     strip: {
@@ -1895,6 +1961,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.seg",
     owner: "motorola",
     strip: {
@@ -2112,6 +2181,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.swec",
     owner: "motorola",
     strip: {
@@ -2409,6 +2481,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.node.swregistration",
     owner: "motorola",
     strip: {
@@ -3185,6 +3260,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.vidhance.node.gme",
     owner: "motorola",
     strip: {
@@ -3306,6 +3384,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.vidhance.node.preview",
     owner: "motorola",
     strip: {
@@ -3394,6 +3475,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.vidhance.node.video",
     owner: "motorola",
     strip: {
@@ -3515,6 +3599,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "libdepthmapwrapper_secure",
     owner: "motorola",
     strip: {
@@ -3604,6 +3691,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // El build rechazaba este blob por su tabla ELF; es un blob
+    // cerrado de Moto, se instala tal cual viene del stock.
+    check_elf_files: false,
     name: "camx.provider-impl",
     owner: "motorola",
     strip: {
@@ -3709,6 +3799,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.camx.chiiqutils",
     owner: "motorola",
     strip: {
@@ -3759,6 +3852,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.chiusecaseselector",
     owner: "motorola",
     strip: {
@@ -3808,6 +3904,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.afbrckt",
     owner: "motorola",
     strip: {
@@ -3857,6 +3956,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.anchorsync",
     owner: "motorola",
     strip: {
@@ -3906,6 +4008,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.arcoffline",
     owner: "motorola",
     strip: {
@@ -3955,6 +4060,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.arcrawpro",
     owner: "motorola",
     strip: {
@@ -4011,6 +4119,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.demux",
     owner: "motorola",
     strip: {
@@ -4060,6 +4171,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.derivedoffline",
     owner: "motorola",
     strip: {
@@ -4110,6 +4224,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.frameselect",
     owner: "motorola",
     strip: {
@@ -4159,6 +4276,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.fusion",
     owner: "motorola",
     strip: {
@@ -4208,6 +4328,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.generic",
     owner: "motorola",
     strip: {
@@ -4258,6 +4381,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.gs.camano",
     owner: "motorola",
     strip: {
@@ -4327,6 +4453,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.hdr",
     owner: "motorola",
     strip: {
@@ -4377,6 +4506,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.mcreprocrt",
     owner: "motorola",
     strip: {
@@ -4426,6 +4558,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.memcpy",
     owner: "motorola",
     strip: {
@@ -4475,6 +4610,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.mfsr.camano",
     owner: "motorola",
     strip: {
@@ -4525,6 +4663,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.mfsr",
     owner: "motorola",
     strip: {
@@ -4575,6 +4716,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.ml",
     owner: "motorola",
     strip: {
@@ -4624,6 +4768,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.mux",
     owner: "motorola",
     strip: {
@@ -4673,6 +4820,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.qcfa",
     owner: "motorola",
     strip: {
@@ -4722,6 +4872,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.rawhdr",
     owner: "motorola",
     strip: {
@@ -4771,6 +4924,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.realtimeserializer",
     owner: "motorola",
     strip: {
@@ -4820,6 +4976,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.rt",
     owner: "motorola",
     strip: {
@@ -4869,6 +5028,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.rtmcx",
     owner: "motorola",
     strip: {
@@ -4918,6 +5080,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.serializer",
     owner: "motorola",
     strip: {
@@ -4967,6 +5132,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.statsregeneration",
     owner: "motorola",
     strip: {
@@ -5016,6 +5184,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.stub",
     owner: "motorola",
     strip: {
@@ -5065,6 +5236,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.swmf",
     owner: "motorola",
     strip: {
@@ -5114,6 +5288,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.feature2.swmfsr",
     owner: "motorola",
     strip: {
@@ -5196,6 +5373,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.qseeutils",
     owner: "motorola",
     strip: {
@@ -5306,6 +5486,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qualcomm.mcx.distortionmapper",
     owner: "motorola",
     strip: {
@@ -5355,6 +5538,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qualcomm.mcx.linearmapper",
     owner: "motorola",
     strip: {
@@ -5404,6 +5590,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qualcomm.mcx.nonlinearmapper",
     owner: "motorola",
     strip: {
@@ -5454,6 +5643,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qualcomm.mcx.policy.mfl",
     owner: "motorola",
     strip: {
@@ -5503,6 +5695,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qualcomm.mcx.policy.xr",
     owner: "motorola",
     strip: {
@@ -5696,6 +5891,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qualcomm.qti.mcx.usecase.extension",
     owner: "motorola",
     strip: {
@@ -6337,6 +6535,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "camera.qcom",
     owner: "motorola",
     strip: {
@@ -6402,6 +6603,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.chi.offline",
     owner: "motorola",
     strip: {
@@ -6452,6 +6656,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "com.qti.chi.override",
     owner: "motorola",
     strip: {
@@ -8896,6 +9103,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "libarccamerapostproc_aidl",
     owner: "motorola",
     strip: {
@@ -9804,6 +10014,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "libcamerapostproc",
     owner: "motorola",
     strip: {
@@ -10087,6 +10300,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "libcamximageformatutils",
     owner: "motorola",
     strip: {
@@ -10495,6 +10711,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "libchifeature2",
     owner: "motorola",
     strip: {
@@ -10850,6 +11069,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "libcommonchiutils",
     owner: "motorola",
     strip: {
@@ -14669,6 +14891,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "libmot_chi_desktop_helper",
     owner: "motorola",
     strip: {
@@ -23862,6 +24087,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "vendor.qti.hardware.camera.aon-service-impl",
     owner: "motorola",
     strip: {
@@ -23911,6 +24139,9 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "vendor.qti.hardware.camera.postproc@1.0-service-impl",
     owner: "motorola",
     strip: {
@@ -30386,6 +30617,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    // Blob realineado con el stock A16: sus dependencias reales no
+    // coinciden con las que declaro el generador, se instala sin revalidar.
+    check_elf_files: false,
     name: "vendor.qti.camera.provider-service_64",
     owner: "motorola",
     target: {
