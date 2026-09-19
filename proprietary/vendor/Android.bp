@@ -257,3 +257,17 @@ cc_prebuilt_binary {
     prefer: true,
     soc_specific: true,
 }
+
+// Manifest VINTF del servicio DMS. Va como fragmento suelto en
+// /vendor/etc/vintf/manifest/ (asi lo trae la ROM stock): fusionado en el
+// manifest del equipo, el chequeo de compatibilidad del OTA se queja de un HAL
+// que la matriz del framework no conoce.
+prebuilt_etc_xml {
+    name: "vendor.dolby.dms-service.xml",
+    owner: "motorola",
+    src: "etc/vintf/manifest/dms-service.xml",
+    filename: "dms-service.xml",
+    sub_dir: "vintf/manifest",
+    vendor: true,
+    soc_specific: true,
+}
