@@ -32827,3 +32827,18 @@ dex_import {
         "proprietary/system/framework/moto-settings.jar",
     ],
 }
+
+// Implementacion FOSS del panel (la que usa la stock para manejar el brillo).
+// Habilita la ruta FOSS junto con FOSSConfig.xml y las props ro.vendor.display.foss.
+cc_prebuilt_library_shared {
+    name: "displaypanel.default",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    srcs: ["proprietary/vendor/lib64/hw/displaypanel.default.so"],
+    compile_multilib: "64",
+    vendor: true,
+    relative_install_path: "hw",
+    check_elf_files: false,
+}

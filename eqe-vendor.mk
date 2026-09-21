@@ -3302,6 +3302,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/eqe/proprietary/vendor/etc/display/DPU8__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU8__.xml \
     vendor/motorola/eqe/proprietary/vendor/etc/display/DPU960.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU960.xml \
     vendor/motorola/eqe/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
+    vendor/motorola/eqe/proprietary/vendor/etc/display/FOSSConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/FOSSConfig.xml \
     vendor/motorola/eqe/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/motorola/eqe/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1220p_dsc_667.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1220p_dsc_667.json \
     vendor/motorola/eqe/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_tm_1220p_dsc_667.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_tm_1220p_dsc_667.json \
