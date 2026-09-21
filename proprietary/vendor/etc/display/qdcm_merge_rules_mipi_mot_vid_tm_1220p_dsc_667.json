@@ -1,0 +1,100 @@
+{
+	"COPYRIGHT": "<!--Copyright(c) 2023 Qualcomm Technologies, Inc.All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.-->",
+	"mipi_mot_vid_tm_1220p_dsc_667": {
+		"MergedModes": {
+			"P3": {
+				"Applicability": {
+					"ColorPrimaries": "P3",
+					"GammaTransfer": "sRGB",
+					"RenderIntent": 1,
+					"RenderIntentName": "Standard"
+				},
+				"DynamicRange": "SDR",
+				"MergeId": "None",
+				"MergeOps": {
+					"PostBlendDEMergeOp": "RIGHT_OPERAND",
+					"PostBlendDitherMergeOp": "RIGHT_OPERAND",
+					"PostBlendGCMergeOp": "LEFT_OPERAND",
+					"PostBlendGameBlobMergeOp": "RIGHT_OPERAND",
+					"PostBlendGamutMergeOp": "LEFT_OPERAND",
+					"PostBlendHdrBlobMergeOp": "IDENTITY",
+					"PostBlendIGCMergeOp": "LEFT_OPERAND",
+					"PostBlendPCCMergeOp": "RIGHT_OPERAND",
+					"PostBlendPaDitherMergeOp": "RIGHT_OPERAND",
+					"PostBlendPaGlobalMergeOp": "RIGHT_OPERAND",
+					"PostBlendPaMemoryColorMergeOp": "RIGHT_OPERAND",
+					"PostBlendPaMultiZoneMergeOp": "RIGHT_OPERAND"
+				},
+				"ModeNameInputLeft": "(Factory)P3",
+				"ModeNameInputRight": "P3",
+				"WhitePoint": 6500
+			},
+			"sRGB": {
+				"Applicability": {
+					"ColorPrimaries": "sRGB",
+					"GammaTransfer": "sRGB",
+					"RenderIntent": 1,
+					"RenderIntentName": "Standard"
+				},
+				"DynamicRange": "SDR",
+				"MergeId": "None",
+				"MergeOps": {
+					"PostBlendDEMergeOp": "RIGHT_OPERAND",
+					"PostBlendDitherMergeOp": "RIGHT_OPERAND",
+					"PostBlendGCMergeOp": "LEFT_OPERAND",
+					"PostBlendGameBlobMergeOp": "RIGHT_OPERAND",
+					"PostBlendGamutMergeOp": "LEFT_OPERAND",
+					"PostBlendHdrBlobMergeOp": "IDENTITY",
+					"PostBlendIGCMergeOp": "LEFT_OPERAND",
+					"PostBlendPCCMergeOp": "RIGHT_OPERAND",
+					"PostBlendPaDitherMergeOp": "RIGHT_OPERAND",
+					"PostBlendPaGlobalMergeOp": "RIGHT_OPERAND",
+					"PostBlendPaMemoryColorMergeOp": "RIGHT_OPERAND",
+					"PostBlendPaMultiZoneMergeOp": "RIGHT_OPERAND"
+				},
+				"ModeNameInputLeft": "(Factory)sRGB",
+				"ModeNameInputRight": "sRGB",
+				"WhitePoint": 6500
+			}
+		},
+		"ModeMerge": {
+			"PostBlendDEMergeOp": {
+				"Version": 1
+			},
+			"PostBlendDitherMergeOp": {
+				"Version": 1
+			},
+			"PostBlendGCMergeOp": {
+				"Version": 1
+			},
+			"PostBlendGameBlobMergeOp": {
+				"Version": 1
+			},
+			"PostBlendGamutMergeOp": {
+				"Version": 2
+			},
+			"PostBlendHdrBlobMergeOp": {
+				"Version": 1
+			},
+			"PostBlendIGCMergeOp": {
+				"Version": 1
+			},
+			"PostBlendPCCMergeOp": {
+				"Version": 1
+			},
+			"PostBlendPaDitherMergeOp": {
+				"Version": 1
+			},
+			"PostBlendPaGlobalMergeOp": {
+				"Version": 1
+			},
+			"PostBlendPaMemoryColorMergeOp": {
+				"Version": 1
+			},
+			"PostBlendPaMultiZoneMergeOp": {
+				"Version": 1
+			},
+			"Version": 1
+		}
+	}
+}
